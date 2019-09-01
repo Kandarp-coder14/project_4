@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*/*/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -141,7 +141,10 @@ body {
 	margin-bottom: 10px;
 	padding-bottom: 0;
 }
-.sec4-div1{
+.sec4{
+	width: 100%;
+}
+.sec4-div1 {
 	float: left;
 	width: 20%;
 	margin: 2.5%;
@@ -219,4 +222,41 @@ small{
 .footer{
 	margin-top: 40px;
 	padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+.sec1 {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.bg1 {
+		max-width: 100%;
+}
+
+.sec4 {
+	max-width: 100%;
+
+}
+.img {
+	max-width: 100%;
+}
+.sec2-div1 {
+	display: block;
+	width: 100%;
+
+}
+.sec4-div1 {
+	display: block;
+	width: 100%;
+}
+.sec5-div1 {
+	width:100%;
+	margin:20px 0;
+	padding:0;
+}
+footer i {
+	font-size:12px;
+	margin:10px 0;
+	padding:0;
+}
 }
